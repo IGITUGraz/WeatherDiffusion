@@ -8,26 +8,64 @@ arXiv preprint, 2022.
 
 Currently the repository is being prepared. Code and model checkpoints are going to be included soon.
 
-In the meantime, check out below for some visualizations of our patch-based diffusive image restoration approach!
+In the meantime, check out below for some visualizations of our patch-based diffusive image restoration approach.
 
 ## Image Desnowing
 
-
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><b>Input Condition</td>
+    <td align="center"><b>Restoration Process</td>
+    <td align="center"><b>Output</td>
+  <tr>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769278-2ab420b3-6e81-4e9d-9d41-3c1bbbae6d7e.png" alt="snow21"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769272-bb3f8e25-f304-4dc0-922e-71c326b0b01e.gif" alt="snow22"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769282-242711d5-e809-45c3-ab89-3e8fabbe1e97.png" alt="snow23"></td>
+  </tr>
+  <tr>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769267-24c7541f-670a-484c-8e44-12c5e95f1e58.png" alt="snow11"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769262-7a9a8236-f12a-4d68-83e0-068b1ebaf1f7.gif" alt="snow12"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769271-08328a77-5452-4bfe-93fd-eccfcc3099c5.png" alt="snow13"></td>
+  </tr>
+</table>
+  
 ## Image Deraining \& Dehazing
 
-
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><b>Input Condition</td>
+    <td align="center"><b>Restoration Process</td>
+    <td align="center"><b>Output</td>
+  <tr>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181770508-490da62c-2f73-4d4f-9a97-45c8f5f5ff66.png" alt="rh11"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181770503-68770f00-25f5-4ac7-88b6-8d3f15d4220c.gif" alt="rh12"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181770509-24266aa7-e177-455a-bbce-6d43e71acb77.png" alt="rh13"></td>
+  </tr>
+  <tr>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181770514-2e0a059b-1ebb-40f1-a01b-3d051ff48cb0.png" alt="rh21"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181770512-8b92bc12-f5c5-4bcc-9ba8-74fe8104da89.gif" alt="rh22"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181770517-c5fc2cde-e8fd-42b3-9ece-f1f13de10564.png" alt="rh23"></td>
+  </tr>
+</table>
+  
 ## Removing Raindrops
 
-
-
-## Setup
-
-You will need [PyTorch](https://pytorch.org/get-started/) to run this code. You can simply start by executing:
-```bash
-pip install -r requirements.txt
-```
-to install all dependencies and use the repository.
-
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><b>Input Condition</td>
+    <td align="center"><b>Restoration Process</td>
+    <td align="center"><b>Output</td>
+  <tr>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769984-0072cb4e-c5fc-472a-8c57-58eace811521.png" alt="rd11"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769977-74c6e79f-1c46-47bd-91ec-57efdb49cbf4.gif" alt="rd12"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769987-54b1ba62-e023-4a97-9d9d-32a644037109.png" alt="rd13"></td>
+  </tr>
+  <tr>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769993-9d65d51e-8c7a-4d89-9194-aeec989e4d36.png" alt="rd21"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769990-c53513ea-1a90-4b38-a6a8-a660159d335b.gif" alt="rd22"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769997-50debc18-5fa1-4987-95ca-8b46805dfd48.png" alt="rd23"></td>
+  </tr>
+</table>
 
 ## Datasets
 
