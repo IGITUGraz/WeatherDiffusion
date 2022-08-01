@@ -1,10 +1,10 @@
 # Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models
 
-This is the code repository of the following [paper](https://....pdf) to train and perform inference with patch-based diffusion models for image restoration under adverse weather conditions.
+This is the code repository of the following [paper](https://arxiv.org/pdf/2207.14626.pdf) to train and perform inference with patch-based diffusion models for image restoration under adverse weather conditions.
 
 "Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models"\
 <em>Ozan Özdenizci, Robert Legenstein</em>\
-arXiv preprint, 2022.
+arXiv preprint arXiv:2207.14626 (2022).
 
 Currently the repository is being prepared. Code and model checkpoints are going to be included soon.
 
@@ -51,7 +51,7 @@ If you use this code or models in your research and find it helpful, please cite
 @article{ozdenizci2022,
   title={Restoring vision in adverse weather conditions with patch-based denoising diffusion models},
   author={Ozan \"{O}zdenizci and Robert Legenstein},
-  journal={arxiv preprint},
+  journal={arXiv preprint arXiv:2207.14626},
   year={2022}
 }
 ```
