@@ -10,7 +10,7 @@ Currently the repository is being prepared. Code and model checkpoints are going
 
 In the meantime, check out below for some visualizations of our patch-based diffusive image restoration approach.
 
-## Image Desnowing, Deraining \& Dehazing, Raindrop Removal
+## Image Desnowing
 
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -18,24 +18,52 @@ In the meantime, check out below for some visualizations of our patch-based diff
     <td align="center"><b>Restoration Process</td>
     <td align="center"><b>Output</td>
   <tr>
-    <td> <img src="https://user-images.githubusercontent.com/30931390/181769278-2ab420b3-6e81-4e9d-9d41-3c1bbbae6d7e.png" alt="snow21"></td>
-    <td> <img src="https://user-images.githubusercontent.com/30931390/181769272-bb3f8e25-f304-4dc0-922e-71c326b0b01e.gif" alt="snow22"></td>
-    <td> <img src="https://user-images.githubusercontent.com/30931390/181769282-242711d5-e809-45c3-ab89-3e8fabbe1e97.png" alt="snow23"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769278-2ab420b3-6e81-4e9d-9d41-3c1bbbae6d7e.png" alt="snow11"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351181-9528c4cb-218d-4b06-8c4c-210219ace8bc.gif" alt="snow12"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769282-242711d5-e809-45c3-ab89-3e8fabbe1e97.png" alt="snow13"></td>
   </tr>
   <tr>
-    <td> <img src="https://user-images.githubusercontent.com/30931390/181769267-24c7541f-670a-484c-8e44-12c5e95f1e58.png" alt="snow11"></td>
-    <td> <img src="https://user-images.githubusercontent.com/30931390/181769262-7a9a8236-f12a-4d68-83e0-068b1ebaf1f7.gif" alt="snow12"></td>
-    <td> <img src="https://user-images.githubusercontent.com/30931390/181769271-08328a77-5452-4bfe-93fd-eccfcc3099c5.png" alt="snow13"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769267-24c7541f-670a-484c-8e44-12c5e95f1e58.png" alt="snow21"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351179-b0183145-ce70-4ded-87eb-077a22c9112a.gif" alt="snow22"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/181769271-08328a77-5452-4bfe-93fd-eccfcc3099c5.png" alt="snow23"></td>
   </tr>
+</table>
+  
+## Image Deraining \& Dehazing
+
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><b>Input Condition</td>
+    <td align="center"><b>Restoration Process</td>
+    <td align="center"><b>Output</td>
   <tr>
     <td> <img src="https://user-images.githubusercontent.com/30931390/181770508-490da62c-2f73-4d4f-9a97-45c8f5f5ff66.png" alt="rh11"></td>
-    <td> <img src="https://user-images.githubusercontent.com/30931390/181771830-fcfa649c-1935-4ef3-a990-1a641266caab.gif" alt="rh12"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351163-7913703b-977f-4117-95ce-2e88397be6be.gif" alt="rh12"></td>
     <td> <img src="https://user-images.githubusercontent.com/30931390/181770509-24266aa7-e177-455a-bbce-6d43e71acb77.png" alt="rh13"></td>
   </tr>
   <tr>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351171-fd874818-d797-409a-9988-28824091417f.png" alt="rh21"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351167-94807242-a5ba-473e-8503-11f9c294b9bf.gif" alt="rh22"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351176-a9f49787-e7ed-45bc-b9ac-d6585a81bd09.png" alt="rh23"></td>
+  </tr>
+</table>
+
+## Raindrop Removal
+
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><b>Input Condition</td>
+    <td align="center"><b>Restoration Process</td>
+    <td align="center"><b>Output</td>
+  <tr>
     <td> <img src="https://user-images.githubusercontent.com/30931390/181769984-0072cb4e-c5fc-472a-8c57-58eace811521.png" alt="rd11"></td>
-    <td> <img src="https://user-images.githubusercontent.com/30931390/181771825-2d23b266-af62-42a7-9649-586b13570c4f.gif" alt="rd12"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351153-785519aa-3df2-4141-89f3-c8837345eeb3.gif" alt="rd12"></td>
     <td> <img src="https://user-images.githubusercontent.com/30931390/181769987-54b1ba62-e023-4a97-9d9d-32a644037109.png" alt="rd13"></td>
+  </tr>
+  <tr>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351159-e9953ae1-652a-4bdd-a254-6ba823e5444d.png" alt="rd21"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351158-5ccb3215-5d52-4cda-8dcf-825629fb9f1c.gif" alt="rd22"></td>
+    <td> <img src="https://user-images.githubusercontent.com/30931390/182351162-1251b9bb-da71-4d1a-9a11-a4ee5729e1b2.png" alt="rd23"></td>
   </tr>
 </table>
 
