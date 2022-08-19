@@ -6,7 +6,7 @@ This is the code repository of the following [paper](https://arxiv.org/pdf/2207.
 <em>Ozan Özdenizci, Robert Legenstein</em>\
 arXiv preprint arXiv:2207.14626 (2022).
 
-Currently the repository is being prepared. Code and model checkpoints are going to be included soon.
+Currently the repository is ***still*** being prepared, more details to be included soon...
 
 In the meantime, check out below for some visualizations of our patch-based diffusive image restoration approach.
 
