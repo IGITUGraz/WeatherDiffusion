@@ -6,9 +6,32 @@ This is the code repository of the following [paper](https://arxiv.org/pdf/2207.
 <em>Ozan Özdenizci, Robert Legenstein</em>\
 arXiv preprint arXiv:2207.14626 (2022).
 
-Currently the repository is ***still*** being prepared, more details to be included soon...
+Currently the repository is ***still*** being prepared, further details to be included soon...
 
-In the meantime, check out below for some visualizations of our patch-based diffusive image restoration approach.
+## Datasets
+
+We perform experiments for image desnowing on [Snow100K](https://sites.google.com/view/yunfuliu/desnownet), combined image deraining and dehazing on [Outdoor-Rain](https://github.com/liruoteng/HeavyRainRemoval), and raindrop removal on
+the [RainDrop](https://github.com/rui1996/DeRaindrop) datasets. To train multi-weather restoration, we used the AllWeather training set from [TransWeather](https://github.com/jeya-maria-jose/TransWeather), which is composed of subsets of training images from these three benchmarks.
+
+
+## Saved Model Weights
+
+We share a pre-trained diffusive **multi-weather** restoration model [WeatherDiff<sub>64</sub>](https://igi-web.tugraz.at/download/OzdenizciLegensteinArXiv2022/WeatherDiff64.pth.tar) with the network configuration in `configs/allweather.yml`.
+To evaluate WeatherDiff<sub>64</sub> using the pre-trained model checkpoint with the current version of the repository:
+```bash
+python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.tar' --test_set 'raindrop' --sampling_timesteps 25 --grid_r 16
+python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.tar' --test_set 'rainfog' --sampling_timesteps 25 --grid_r 16
+python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.tar' --test_set 'snow' --sampling_timesteps 25 --grid_r 16
+```
+
+A smaller value for `grid_r` will yield slightly better results and higher image quality:
+```bash
+python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.tar' --test_set 'raindrop' --sampling_timesteps 25 --grid_r 4
+python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.tar' --test_set 'rainfog' --sampling_timesteps 25 --grid_r 4
+python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.tar' --test_set 'snow' --sampling_timesteps 25 --grid_r 4
+```
+
+Check out below for some visualizations of our patch-based diffusive image restoration approach.
 
 ## Image Desnowing
 
@@ -66,11 +89,6 @@ In the meantime, check out below for some visualizations of our patch-based diff
     <td> <img src="https://user-images.githubusercontent.com/30931390/182351162-1251b9bb-da71-4d1a-9a11-a4ee5729e1b2.png" alt="rd23"></td>
   </tr>
 </table>
-
-## Datasets
-
-We perform experiments for image desnowing on [Snow100K](https://sites.google.com/view/yunfuliu/desnownet), combined image deraining and dehazing on [Outdoor-Rain](https://github.com/liruoteng/HeavyRainRemoval), and raindrop removal on
-the [RainDrop](https://github.com/rui1996/DeRaindrop) datasets. To train multi-weather restoration, we used the AllWeather training set from [TransWeather](https://github.com/jeya-maria-jose/TransWeather), which is composed of subsets of training images from these three benchmarks.
 
 
 ## Reference
