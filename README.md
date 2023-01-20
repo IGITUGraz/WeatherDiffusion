@@ -4,9 +4,8 @@ This is the code repository of the following [paper](https://arxiv.org/pdf/2207.
 
 "Restoring Vision in Adverse Weather Conditions with Patch-Based Denoising Diffusion Models"\
 <em>Ozan Özdenizci, Robert Legenstein</em>\
-arXiv preprint arXiv:2207.14626 (2022).
-
-Currently the repository is ***still*** being prepared, further details to be included soon...
+IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023.\
+https://doi.org/10.1109/TPAMI.2023.3238179
 
 ## Datasets
 
@@ -94,11 +93,13 @@ Check out below for some visualizations of our patch-based diffusive image resto
 ## Reference
 If you use this code or models in your research and find it helpful, please cite the following paper:
 ```
-@article{ozdenizci2022,
+@article{ozdenizci2023,
   title={Restoring vision in adverse weather conditions with patch-based denoising diffusion models},
   author={Ozan \"{O}zdenizci and Robert Legenstein},
-  journal={arXiv preprint arXiv:2207.14626},
-  year={2022}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  pages={1-12},
+  year={2023},
+  doi={10.1109/TPAMI.2023.3238179}
 }
 ```
 
