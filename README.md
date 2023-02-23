@@ -15,7 +15,7 @@ the [RainDrop](https://github.com/rui1996/DeRaindrop) datasets. To train multi-w
 
 ## Saved Model Weights
 
-We share a pre-trained diffusive **multi-weather** restoration model [WeatherDiff<sub>64</sub>](https://igi-web.tugraz.at/download/OzdenizciLegensteinArXiv2022/WeatherDiff64.pth.tar) with the network configuration in `configs/allweather.yml`.
+We share a pre-trained diffusive **multi-weather** restoration model [WeatherDiff<sub>64</sub>](https://igi-web.tugraz.at/download/OzdenizciLegensteinTPAMI2023/WeatherDiff64.pth.tar) with the network configuration in `configs/allweather.yml`.
 To evaluate WeatherDiff<sub>64</sub> using the pre-trained model checkpoint with the current version of the repository:
 ```bash
 python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.tar' --test_set 'raindrop' --sampling_timesteps 25 --grid_r 16
@@ -29,6 +29,8 @@ python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.t
 python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.tar' --test_set 'rainfog' --sampling_timesteps 25 --grid_r 4
 python eval_diffusion.py --config "allweather.yml" --resume 'WeatherDiff64.pth.tar' --test_set 'snow' --sampling_timesteps 25 --grid_r 4
 ```
+
+We also share our pre-trained diffusive multi-weather restoration model [WeatherDiff<sub>128</sub>](https://igi-web.tugraz.at/download/OzdenizciLegensteinTPAMI2023/WeatherDiff128.pth.tar) with the network configuration in `configs/allweather128.yml`.
 
 Check out below for some visualizations of our patch-based diffusive image restoration approach.
 
